@@ -112,6 +112,7 @@ PRODUCT_PACKAGES += \
     SettingsLibOverlaySweet \
     NotchBarKiller \
     SettingsOverlaySweet \
+    SettingsLibOverlaySweet \
     SettingsProviderOverlaySweet \
     SystemUIOverlaySweet \
     TelephonyOverlaySweet
