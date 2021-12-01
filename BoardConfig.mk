@@ -4,8 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-BUILD_BROKEN_VENDOR_PROPERTY_NAMESPACE := true
-
 # Inherit from sm6150-common
 include device/xiaomi/sm6150-common/BoardConfigCommon.mk
 
@@ -14,6 +12,8 @@ include device/xiaomi/sm6150-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/sweet
 BUILD_BROKEN_DUP_RULES := true
+BUILD_BROKEN_VENDOR_PROPERTY_NAMESPACE := true
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 SELINUX_IGNORE_NEVERALLOWS := true
 
 # Assert
