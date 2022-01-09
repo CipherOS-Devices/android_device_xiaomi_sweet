@@ -109,6 +109,9 @@ PRODUCT_PACKAGES += \
     CarrierConfigOverlaySweet \
     DialerOverlaySweet \
     FrameworkResOverlaySweet \
+    SettingsLibOverlaySweet \
+    NotchBarKiller \
+    SettingsOverlaySweet \
     SettingsProviderOverlaySweet \
     SystemUIOverlaySweet \
     TelephonyOverlaySweet
