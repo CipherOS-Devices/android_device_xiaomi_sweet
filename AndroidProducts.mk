@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cherish_sweet.mk
+    $(LOCAL_DIR)/cipher_sweet.mk
 
 COMMON_LUNCH_CHOICES := \
-    cherish_sweet-eng \
-    cherish_sweet-userdebug \
-    cherish_sweet-user
+    cipher_sweet-eng \
+    cipher_sweet-userdebug \
+    cipher_sweet-user
