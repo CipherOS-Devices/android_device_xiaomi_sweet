@@ -7,6 +7,7 @@ $(call inherit-product, device/xiaomi/sweet/device.mk)
 
 # Inherit common Cipher configurations
 $(call inherit-product, vendor/cipher/config/common_full_phone.mk)
+CIPHER_OFFICIAL := true
 CIPHER_GAPPS := true
 CIPHER_MAINTAINER := UnsatifsedError
 
